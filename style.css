@@ -9,7 +9,12 @@ body{
 }
 
 h1{
-  line-height: 2.0;
+  line-height: 1.6;
+}
+
+h3{
+  line-height: 2;
+  margin: 0 10%;
 }
 
 .current-letter{

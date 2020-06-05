@@ -1,0 +1,57 @@
+body{
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.container{
+  margin: 10% 10%;
+}
+
+h1{
+  line-height: 2.0;
+}
+
+.current-letter{
+  text-decoration: underline;
+}
+
+.red{
+  color: red;
+}
+
+
+.modal{
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal > button{
+  margin: 0.5rem;
+  font-size: 2rem;
+  border:2px solid white;
+  color: white;
+  background-color: black;
+}
+
+.modal>button:hover{
+  cursor: pointer;
+  border: 2px solid red;
+  color: red;
+}
+
+
+.green{
+  color: green;
+}
+
+.hidden{
+  display: none;
+}
